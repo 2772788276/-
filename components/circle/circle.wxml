@@ -1,0 +1,10 @@
+<!--components/circle/circle.wxml-->
+<view class="container">
+  <text class="content">目前进度:\n<text class="progress">{{status[progress]}}</text></text>
+  <view class="circle">
+    <view class="halfblue" style="z-index:3;transform: rotate({{move-180}}deg) translateX(100%);" wx:if="{{move>=180}}"></view>
+    <view class="halfgrey1" style="z-index:2;transform:rotate({{move}}deg) translateX(100%);" wx:if="{{move<180}}"></view>
+    <view class="halfgrey2" style="z-index:2"></view>
+    <view class="innerbox"><icon class="iconfont icon-xingxing"></icon></view>
+  </view>
+</view>

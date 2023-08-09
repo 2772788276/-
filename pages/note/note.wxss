@@ -1,0 +1,15 @@
+/* pages/note/note.wxss *//* pages/feedback/feedback.wxss */.navigator{
+  background-color: rgb(87, 150, 231);
+  height: 230rpx;
+  color: white;
+  font-size: 50rpx;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-xiangzuo{
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  font-size: 60rpx;
+}

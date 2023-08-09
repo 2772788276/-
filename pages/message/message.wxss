@@ -1,0 +1,49 @@
+/* pages/message/message.wxss */
+.navigator{
+  background-color: rgb(87, 150, 231);
+  height: 230rpx;
+  color: white;
+  font-size: 50rpx;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-xiangzuo{
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  font-size: 60rpx;
+}
+.box{
+  margin-left: 70rpx;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+}
+.span{
+  display: inline-block;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: #9fd3f4;
+  margin-right: 20rpx;
+}
+.active{
+  background-color: #3144f8;
+}
+.text{
+  font-weight: 600;
+  font-size: 40rpx;
+}
+.forward{
+  margin: 30rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+  font-size: 40rpx;
+  height: 80rpx;
+  border-radius: 60rpx;
+  background-color: rgb(72, 104, 250);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

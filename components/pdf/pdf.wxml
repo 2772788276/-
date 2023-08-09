@@ -1,0 +1,7 @@
+<!--components/pdf/pdf.wxml-->
+<view class="pdfcontainer" wx:for="{{pdf}}" wx:key="index" >
+  <image class="pic" src="https://ts1.cn.mm.bing.net/th/id/R-C.66a9c7b53138979778c84781309ac389?rik=7tva3L29xbfMoA&riu=http%3a%2f%2fbpic.588ku.com%2felement_pic%2f00%2f86%2f51%2f4756eb8d4618491.jpg&ehk=8vJd9H6CzPSUt7JW5QwhBbjm%2fBKNYBcKEGHLzQslocI%3d&risl=&pid=ImgRaw&r=0"></image>
+  <text class="title">{{item.title}}</text>
+  <view class="watch" data-url="{{item.url}}">查看</view>
+  <view class="load" bindtap="load" data-url="{{item.url}}">下载</view>
+</view>

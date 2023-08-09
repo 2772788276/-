@@ -1,0 +1,54 @@
+<!--pages/info/info.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>报名信息</view>
+</view>
+<view class="info" wx:if="{{now.name!=''}}">
+  <view class="name">姓名：{{now.name}}</view>
+  <view class="academy">学院：{{now.academy}}</view>
+  <view class="grade">年级：{{now.grade}}</view>
+  <view class="class">专业班级：{{now.class}}</view>
+  <view class="number">学号：{{now.number}}</view>
+  <view class="direction">选择方向：{{now.direction}}</view>
+  <view class="phone">联系方式：{{now.phone}}</view>
+</view>
+<van-empty wx:if="{{now.name==''}}" class="empty"><text class="emptytext">空空如也\n快去报名吧</text></van-empty>
+<view class="change" wx:if="{{now.name!=''}}" bindtap="showPopup">修改信息</view>
+<van-popup
+  show="{{ show }}"
+  round
+  closeable
+  position="bottom"
+  custom-style="height: 80%;"
+  bind:close="onClose"
+  z-index="100"
+>
+<van-cell-group>
+  <view class="signinput">
+          <view>姓名</view><input bindinput="inputvalue" placeholder="输入姓名" data-type="name" value="{{now.name}}"></input>
+        </view>
+        <view class="signinput">
+          <view>学院</view><input placeholder="输入学院" data-type="academy" bindinput="inputvalue" value="{{now.academy}}"></input>
+        </view>
+        <view class="signinput">
+          <view>年级</view><select class="grade" nowId="{{grade.curfId}}" nameList="{{grade.grades}}" nowName="{{now.grade}}" placeholder="请选择年级" data-type="grade" bind:handleChange="inputvalue"></select>
+        </view>
+        <view class="signinput">
+          <view>专业班级</view><input placeholder="输入专业班级" data-type="class" bindinput="inputvalue" value="{{now.class}}"></input>
+        </view>
+        <view class="signinput">
+          <view>学号</view><input placeholder="输入学号" data-type="number" bindinput="inputvalue" value="{{now.number}}"></input>
+        </view>
+        <view class="signinput">
+          <view>方向</view><select class="grade" nowId="{{direction.curfId}}" nameList="{{direction.directions}}" nowName="{{now.direction}}" placeholder="请选择方向" data-type="direction" bind:handleChange="inputvalue"></select>
+        </view>
+        <view class="signinput">
+          <view>联系方式</view><input bindinput="inputvalue" placeholder="输入联系方式"  data-type="phone" value="{{now.phone}}"></input>
+        </view>
+        <view class="signinput">
+          <view>个人简介</view><textarea data-type="introduction" bindinput="inputvalue" value="{{now.introduction}}"></textarea>
+        </view>
+        <view class="signensure" bindtap="checkform" bindtap="changeinfo">确认修改</view>
+</van-cell-group>
+</van-popup>
+
+

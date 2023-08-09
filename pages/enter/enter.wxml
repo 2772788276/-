@@ -1,0 +1,33 @@
+<!--pages/show/show.wxml-->
+<view class="container" style="background-image: url({{backgroundimage[state-1]}}); padding-bottom: 100rpx;" bindtap="change"scroll-y>
+  <view class="wel wel{{state}}">
+  <text wx:if="{{state==1}}" class="wel_first">欢迎进入</text>
+  <text wx:if="{{state==2}}" class="wel_second">小A创新创业团队</text>
+  <text wx:if="{{state==3}}" class="wel_third1">2015年创立</text>
+  <view wx:if="{{state==3}}" class="wel_third2">由于兆勤教授于许金镇副院长任指导老师</view>
+  <view wx:if="{{state==4}}" class="wel_forth1">目前已获奖100+次</view>
+  <view wx:if="{{state==4}}" class="wel_forth2">累计资金达300万元</view>
+  <view wx:if="{{state==4}}" class="wel_forth3">专利软著累计百余项</view>
+  </view>
+  <view class="name name{{state}}">
+  <text wx:if="{{state==1}}" class="name_first">智汇创客工坊</text>
+  <text wx:if="{{state==2}}" class="name_second">梦启航的地方</text>
+  <view wx:if="{{state==3}}" class="name_third1">成员来自<text class="important">多个学院</text></view><view wx:if="{{state==3}}" class="name_third2">专攻机械制造，软件开发等<text class="important">多个领域</text></view>
+  <view wx:if="{{state==3}}" class="name_third3">是创客工坊的主要运营团队</view>
+  <view wx:if="{{state==4}}" class="name_forth1">团队每年都有一批优秀的师兄师姐</view>
+  <view wx:if="{{state==4}}" class="name_forth2"><text class="name_forth2_important">获得保研机会</text></view>
+  <view wx:if="{{state==4}}" class="name_forth3">多为任职于<text class="name_forth3_important">腾讯，字节，阿里等大厂</text></view>
+  </view>
+  <view class="logo logo{{state}}">
+  <image wx:if="{{state==1}}" src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg" mode="scaleToFill"/>
+  <image wx:if="{{state==2}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVABALo6zzzKYTHnYeWJHaLMy96XaiN3eOiDrOINvuET*DepdkoZD7VDCjmeDsV1ddw!/b&bo=OASsAgAAAAABF6I!&rf=viewer_4" mode="scaleToFill"/>
+  <image wx:if="{{state==3}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVDCvCVxBGfuP77SeAwI7LWuLWHhgJs1b9EvnIcx2c1yj*m7J4eV10y0J2lRLY5AVuU!/b&bo=9gODAgAAAAADVwY!&rf=viewer_4"/>
+  <image wx:if="{{state==4}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5qPCJtcbE32LDvhws.UWhWBUj*zB0yFwFQHqQBxJkQXNEnid9P99Sqs5Zx2hxON3fuf5pGP.9U*5rgDSAbqEAH0!/b&bo=OAQoAwAAAAABFyc!&rf=viewer_4"/>
+  </view>
+  <view class="continue continue{{state}}" bindtap="move">了解我们<image src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5kRjvgoerbHu*6rncWlwSbothMOHU5F2yr5juj7FQxt60IPREm7uFpILT6KbzBaaNm5b5LfH8laKdxlIJ0YKfn0!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4" mode="scaleToFill"></image></view>
+  <icon class="iconfont icon-xingxing star1" wx:if="{{state==2}}"></icon>
+  <icon class="iconfont icon-xingxing star2" wx:if="{{state==2}}"></icon>
+  <icon class="iconfont icon-xingxing star3" wx:if="{{state==3}}"></icon>
+  <icon class="iconfont icon-xingxing star4" wx:if="{{state==3}}"></icon>
+  <icon class="iconfont icon-xingxing star5" wx:if="{{state==4}}"></icon>
+</view>

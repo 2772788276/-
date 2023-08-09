@@ -1,0 +1,32 @@
+<!--pages/direction/media/media.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>传媒组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852198.png" mode="aspectFill" class="groupImage" />
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >运营部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <text class="groupText">1、日常运营工坊公众号、视频账号、私域社群等\n2、产出宣传工坊、项目、创新创业有关的视频、图文、海报、PPT等物料</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、有摄影摄像、影视制作、图文创作、平面设计、账号运营经验或传媒社团、工作室、校媒等工作经验优先\n2、有微电影、微纪录片、TVC、Vlog、海报、PPT、推文作品案例且水平较好的优先\n3、掌握3D建模、渲染特效制作技能的优先\n4、面向传媒或影视工作室水平进行考核\n5、主要面向大一、大二招新</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、你的传媒素养和审美得到了极大的锻炼，因为工坊产出的内容至少是校媒、社会上传媒团队的规格，展出的平台也是至少学校层面的，还能保障有相当的创作空间，能体验到正式和真实程度上在整个学校独一无二的工作机会\n2、有机会参与到互联网+、两个“挑战杯”、iCAN等竞赛项目中去
+    有机会进入项目产品部，成为未来工坊决策层的一员\n3、视贡献程度，在基础的时长、综测加分的前提下有机会获得额外的时长与加分\n4、有机会参与商单摄影、传媒、影视外包项目或初创项目，定期促成影视、摄影、图文、账号社群运营等校内外活动与实习机会，工坊提供部分技术与项目对接支持</text>
+  </view>
+</view>

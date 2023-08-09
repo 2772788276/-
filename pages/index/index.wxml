@@ -1,0 +1,110 @@
+<!-- tabbar部分 -->
+<view class="tabbar" bindtap="getUserProfile">
+  <view class="item {{index==idx?'active':''}}" wx:for="{{tabBar}}" wx:for-index="idx" bindtap="goto" data-index='{{idx}}'>
+    <i class="iconfont {{item.icon}} icon"></i>
+    <view class="icontext">{{item.name}}</view>
+  </view>
+  <view class="move" style="left:{{90+(index*159)}}rpx"></view>
+</view>
+<!-- ------------------------ -->
+<!-- 页面部分 -->
+<view class="container"scroll-y bindtap="getUserProfile">
+  <!-- 首页部分 -->
+  <view class="index home" wx:if="{{index==0}}"scroll-y>
+    <swiper indicator-dots="ture" indicator-active-color="blue" indicator-color="white" wx:if="!{{noImg}}" autoplay="ture" circular="ture" interval="2000">
+      <swiper-item wx:for="{{swiperImg}}">
+        <image src="{{item}}" alt=""></image>
+      </swiper-item>
+    </swiper>
+    <view class="indexcontainer">
+      <view class="indextitle">
+        <image src="{{logo}}"></image>小A欢迎你
+      </view>
+      <view class="indextext">
+       <view class="indextext_title">团队简介</view>
+       <view class="indextext_text">小A创新创业团队成立于2015年，由机电工程学院于兆勤教授与创新创业学院许金镇副院长担任团队指导老师，团队成员来自机电工程学院、自动化学院、计算机学院、物理与光电工程学院、管理学院等学院，专攻机械制造、自动化设备、软件开发、计算机视觉、AI等众多技术、项目领域。团队于2019年入驻我校国家级创新创业教育实践基地工大创谷智汇+创客工坊（现更名为创新工坊），成为主要运营团队。</view>
+       <image src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVDCvCVxBGfuP77SeAwI7LWuLWHhgJs1b9EvnIcx2c1yj*m7J4eV10y0J2lRLY5AVuU!/b&bo=9gODAgAAAAADVwY!&rf=viewer_4" class="indextext_img"></image>
+       <view class="indextext_title">团队获奖</view>
+       <view class="indextext_text">小A团队的项目、竞赛、商业转化斐然,团队一直都是三大赛事（互联网+、挑战杯）,及一级竞赛（机创、三创赛等）中的佼佼者,团队日常在地区竞赛、校级竞赛中更是一马当先,已获奖100+次，累计资金达300万元,专利软著累计百余项，国内外交流机会超过30次,每年在项目上的流动资金至少20w+</view>
+       <image src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5qPCJtcbE32LDvhws.UWhWBUj*zB0yFwFQHqQBxJkQXNEnid9P99Sqs5Zx2hxON3fuf5pGP.9U*5rgDSAbqEAH0!/b&bo=OAQoAwAAAAABFyc!&rf=viewer_4" class="indextext_img"></image>
+       <view class="learnMore">
+        <view>了解更多</view>
+        <image src="https://mmbiz.qpic.cn/mmbiz_gif/BVWaS5Cf97ibnx3AmPYaFpVWSNMOpBib6PIDMvFu11Oe4N9ptDIBjR4yGIiaaGmx2cAF0GicuhmyqSlzBP4IcibyP6Q/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1" show-menu-by-longpress="{{true}}"/>
+        <view>广工大智汇Plus创客工坊公众号</view>
+       </view>
+      </view>
+    </view>
+  </view>
+  <!-- 方向页面 -->
+  <view class="index direction bg" wx:if="{{index==1}}">
+    <view class="directionContainer">
+      <navigator wx:for="{{directionGroup}}" wx:key="item" url="{{item.nav}}" style="top:{{item.top}} ;left:{{item.left}};transform: scale({{item.scale}})" class="directionGroup">
+        <image src="{{item.url}}" mode="" class="directionImage" />
+        <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307190133272.png" mode="" class="directionBorder" />
+        <text class="directionTitle">{{item.title}}</text>
+      </navigator>
+      <image class="directionImage directionIron" src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg" />
+      <!-- 气泡框 -->
+      <navigator url="../direction/all/all">
+      <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307190133272.png" mode="" class="directionBorder directionIronBorder" />
+    </navigator>
+    <!-- 背景 -->
+      <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307182239669.png" mode="aspectFill" class="bgDirection" />
+      <view class="directionWri">
+        <text class="directionText">请选择你感兴趣的组别</text>
+      </view>
+    </view>
+  </view>
+  <!-- 报名页面------ -->
+  <view class="index sign" wx:if="{{index==2}}"scroll-y="true">
+    <view class="signcontainer">
+      <view class="signtitle">报名</view>
+      <scroll-view class="signinfo" scroll-y="ture" scroll-anchoring="ture" wx:if="{{signTime==true &&changable==true}}">
+        <!-- 报名表单 -->
+        <view class="signinput">
+          <view>姓名</view><input bindinput="inputvalue" placeholder="输入姓名" data-type="name" value="{{name}}"></input>
+        </view>
+        <view class="signinput">
+          <view>学院</view><input placeholder="输入学院" data-type="academy" bindinput="inputvalue" value="{{academy}}"></input>
+        </view>
+        <view class="signinput">
+          <view>年级</view><select class="grade" nowId="{{grade.curfId}}" nameList="{{grade.grades}}" nowName="{{grade.curName}}" placeholder="请选择年级" data-type="grade" bind:handleChange="inputvalue"></select>
+        </view>
+        <view class="signinput">
+          <view>专业班级</view><input placeholder="输入专业班级" data-type="class" bindinput="inputvalue" value="{{class}}"></input>
+        </view>
+        <view class="signinput">
+          <view>学号</view><input placeholder="输入学号" data-type="number" bindinput="inputvalue" value="{{number}}"></input>
+        </view>
+        <view class="signinput">
+          <view>方向</view><select class="grade" nowId="{{direction.curfId}}" nameList="{{direction.directions}}" nowName="{{direction.curName}}" placeholder="请选择方向" data-type="direction" bind:handleChange="inputvalue"></select>
+        </view>
+        <view class="signinput">
+          <view>联系方式</view><input bindinput="inputvalue" placeholder="输入联系方式" style="border-color:{{border.right!=false ? '':border.wrongColor}}" data-type="phone" value="{{phone}}"></input>
+        </view>
+        <view class="signinput">
+          <view>个人简介</view><textarea data-type="introduction" bindinput="inputvalue" value="{{introduction}}"></textarea>
+        </view>
+      </scroll-view>
+      <view class="signensure" bindtap="checkform" wx:if="{{signTime==true &&changable==true}}" bindtap="signclick">确认报名</view>
+      <!-- 未到报名时间状态 -->
+      <view class="signWronging" wx:if="{{signTime==false}}">未在报名时间内，敬请期待~<icon class="iconfont icon-xingxing star1"></icon><icon class="iconfont icon-xingxing star2"></icon></view>
+      <!-- 已报名状态 -->
+      <view class="signWronging" wx:if="{{signTime==true &&changable==false}}">已报名~<icon class="iconfont icon-xingxing star1"></icon><icon class="iconfont icon-xingxing star2"></icon></view>
+    </view>
+  </view>
+  <!-- 我的页面 -->
+  <view class="index mine" wx:if="{{index==3}}">
+    <view class="mineContainer">
+      <view class="backCircle"></view>
+      <view class="mineImg">
+        <image src="{{mineImg}}" mode="scaleToFill" bindtap="code"/>
+      </view>
+      <view class="mineName">{{mineName}}</view>
+      <progress progress='{{progress}}'></progress>
+      <view class="mineThings">
+        <navigator class="nav" wx:for="{{mineThings}}" url="{{item.url}}"><i class="iconfont {{item.icon}}"></i>{{item.title}}<i class="iconfont icon-xiangyou"></i></navigator>
+      </view>
+    </view>
+  </view>
+</view>

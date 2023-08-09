@@ -1,0 +1,19 @@
+<!--components/progress/progress.wxml-->
+<view class="container" bindtap="text">
+  <view class="peoplecontainer" style="animation: walk 1s steps(2) {{progress}},forward{{progress}} {{progress}}s linear 1 forwards;"></view>
+  <view class="spancontainer">
+    <view class="line"></view>
+    <view class="span"><view class="inner" style="animation: move 0.4s linear 0s forwards 1 ;" wx:if="{{progress>=0}}"></view></view>
+    <view class="span"><view class="inner" style="animation: move 1s linear 0.4s forwards 1 ;" wx:if="{{progress>=1}}"></view></view>
+    <view class="span"><view class="inner" style="animation: move 1s linear 1.4s forwards 1 ;" wx:if="{{progress>=2}}"></view></view>
+    <view class="span"><view class="inner" style="animation: move 0.8s linear 2.4s forwards 1 ;" wx:if="{{progress>=3}}"></view></view>
+    <view class="span"><view class="inner" style="animation: move 1s linear 3.2s forwards 1 ;" wx:if="{{progress>=4}}"></view></view>
+  </view>
+  <view class="title">
+    <view>报名</view>
+    <view>笔试</view>
+    <view>面试</view>
+    <view>一轮</view>
+    <view>二轮</view>
+  </view>
+</view>

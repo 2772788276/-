@@ -1,0 +1,31 @@
+<!--pages/direction/technic/technic.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>机械组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852194.png" mode="aspectFill" class="groupImage" />
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >技术部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <view class="groupText groupText1">团队项目中机械结构的设计加工</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <view class="groupText groupText1">面向大一大二，具备机械设计相关知识，对solidworks、CAD、keyshot等设计软件有基础的了解，并且要有一定的动手能力</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <view class="groupText groupText1">机械原理、机械加工装配、3D打印等知识、各种各样的软件学习和机械实操</view>
+  </view>
+</view>

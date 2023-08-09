@@ -1,0 +1,31 @@
+<!--pages/direction/ai/ai.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>AI组</view>
+</view>
+<view class="directionInImage">
+<image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852192.png" mode="aspectFill" class="groupImage"/>
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >技术部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <view class="groupText groupText1">负责团队项目的深度学习算法设计，主要领域为计算机视觉</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、要求具备一定的计算机知识和编程基础，具有坚持学习的决心和热情\n2、拥有较强的数理知识学习能力\n3、具有良好的团队沟通能力和协作能力，能够积极主动参与项目建设和团队建设</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <view class="groupText groupText1">深度学习领域有许多晦涩难懂的知识，有师兄的指导可以少走很多弯路。还有许多项目实战的机遇</view>
+  </view>
+</view>

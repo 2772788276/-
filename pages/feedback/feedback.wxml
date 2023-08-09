@@ -1,0 +1,11 @@
+<!--pages/feedback/feedback.wxml-->
+<view class="box"scroll-y>
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>问题反馈</view>
+</view>
+<text class="container">
+  若小程序出现问题，请联系我们。\n联系方式：xxxxxxxxx
+</text>
+<icon class="iconfont icon-xingxing star1"></icon>
+<icon class="iconfont icon-xingxing star2"></icon></view>
+

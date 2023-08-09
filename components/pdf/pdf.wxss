@@ -1,0 +1,42 @@
+/* components/pdf/pdf.wxss */
+.pic{
+  display:inline-block;
+  width: 70rpx;
+  height: 90rpx;
+}
+.pdfcontainer{
+  margin: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 650rpx;
+  height: 170rpx;
+  padding-left: 30rpx;
+  background-color: #efefef;
+  box-sizing: border-box;
+}
+.title{
+  height: 100rpx;
+  background-color: #f5f5f5;
+  width: 330rpx;
+  overflow: hidden;
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+  padding-left: 50rpx;
+  line-height: 60rpx;
+  font-size: 34rpx;
+  box-sizing: border-box;
+}
+.watch{
+  font-weight: 600;
+  color: #67a9ec;
+  margin: 30rpx;
+}
+.load{
+  font-weight: 600;
+  color: #67a9ec;
+}
+.internal{
+  font-size: 30rpx;
+  color: #b3adb3;
+}

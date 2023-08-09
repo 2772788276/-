@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/enter/enter",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/note/note",
+    "pages/note/info",
+    "pages/message/message",
+    "pages/message/text",
+    "pages/feedback/feedback",
+    "pages/direction/media/media",
+    "pages/direction/ai/ai",
+    "pages/direction/technic/technic",
+    "pages/direction/back/back",
+    "pages/direction/electronic/electronic",
+    "pages/direction/front/front",
+    "pages/direction/manage/manage",
+    "pages/direction/all/all"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小A",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

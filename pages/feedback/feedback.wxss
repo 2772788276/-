@@ -1,0 +1,56 @@
+/* pages/feedback/feedback.wxss */
+.box{
+  background-image: url(http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5gyIiNO7yMtpTBiWkmPr08vhlsvvROk7PdNh54v.O12oUx.RcilJfOdK46t6IR9FugOnTuxJs72suKQ1i.dhkeM!/b&bo=dwGbAgAAAAADJ.0!&rf=viewer_4);
+  background-repeat: no-repeat;
+  background-position: 0 150rpx;
+  height: 1500rpx;
+  width: 100%;
+  background-size:100% 90%;
+}
+.navigator{
+  background-color: rgb(87, 150, 231);
+  height: 230rpx;
+  color: white;
+  font-size: 50rpx;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-xiangzuo{
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  font-size: 60rpx;
+}
+.container{
+  margin: 70rpx;
+  padding: 0;
+  border-radius: 30rpx;
+  text-align: center;
+  position: absolute;
+  top: 550rpx;
+  width: 600rpx;
+  height: 400rpx;
+  background-color: rgb(234, 242, 255);
+  padding-top: 120rpx;
+  opacity: 0.7;
+  font-size: 34rpx;
+  font-weight: 600;
+  color: rgb(87, 150, 231);
+}
+.star1{
+  transform: scale(6) rotate(45deg);
+  position: absolute;
+  right:100rpx;
+  top: 550rpx;
+  color: rgb(122, 174, 251);
+  opacity: 0.8;
+}
+.star2{
+  transform: scale(4) rotate(-45deg);
+  position: absolute;
+  left:100rpx;
+  top: 980rpx;
+  color: rgb(122, 174, 251);
+  opacity: 0.8;
+}

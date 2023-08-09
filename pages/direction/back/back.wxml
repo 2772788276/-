@@ -1,0 +1,31 @@
+<!--pages/direction/back/back.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>后台组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852193.png" mode="aspectFill" class="groupImage"/>
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >技术部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <view class="groupText groupText1">主要进行后端功能逻辑的设计，前端页面的交互，以及数据库的设计，服务器的项目部署，获得开发企业级项目的能力</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText"><text style="font-weight: bold;">大一</text>：\n1、掌握C语言与最基本的数据结构 (栈, 队列, 链表)和一些简单算法（如排序，二分查找）\n2、简单的Java基础，要求不会很高, 后面会提供资料学习，0基础也可以放心大胆地来\n<text style="font-weight: bold;">大二</text>：\n1、熟练掌握JavaWeb知识\n2、能够熟练掌握使用SSM框架开发, 使用SpringBoot开发项目\n3、在Linux服务器上部署项目\n4、对进阶知识有一定了解，数据结构/并发知识/MySql进阶/Redis/Spring源码掌握列举其中一部分即可</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、<text style="font-weight: bold;">团队</text>：珍贵的优秀团队学习，合作机会，可以和组内外小伙伴们一起合作开发项目，打比赛，活动团建\n2、<text style="font-weight: bold;">机遇</text>：学习开发知识，获得企业级项目的开发经验，包揽大大小小的项目奖项，有机会取得软著，专利，获得综测和保研加分机会\n3、<text style="font-weight: bold;">福利</text>：团队每年都有一批优秀的师兄师姐获得保研机会，提供保研经验。另外还有多位在职于腾讯、网易、阿里等大厂的师兄师姐提供创业、就业指导</text>
+  </view>
+</view>

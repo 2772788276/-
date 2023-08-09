@@ -1,0 +1,31 @@
+<!--pages/direction/front/front.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>前端组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852195.png" mode="aspectFill" class="groupImage"/>
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >技术部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <view class="groupText groupText1">负责团队项目的前端设计以及开发</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、要求具备一定的计算机知识和编程基础\n2、前端三剑客HTML，CSS，JavaScript（要求不会很高，0基础也可以学习，考核过程也会有相应的学习路线指导和培训）\n3、具有良好的团队沟通意识和合作意识，对前端设计和开发感兴趣\n注：招新不限学院，欢迎同学们加入</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、HTML,CSS,JAVASCRIPT,前端主流框架等的开发知识，以及大创项目开发，企业级项目开发经验\n2、包揽大大小小的项目奖项，拥有一份属于你的专利软著\n3、团队每年都有一批优秀的师兄师姐获得保研机会，另外还有多位在职于腾讯、网易、阿里等大厂的师兄师姐提供创业、就业指导</text>
+  </view>
+</view>

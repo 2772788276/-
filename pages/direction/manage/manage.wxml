@@ -1,0 +1,75 @@
+<!--pages/direction/manage/manage.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>管理组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852197.png" mode="aspectFill" class="groupImage" />
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1">项目管理</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <view class="groupText groupText1">竞赛和大创项目活动的组织，监督各个竞赛项目组的进度，关注竞赛的机会，为团队提供竞赛的最新消息和保持各个竞赛项目组的正常运行</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、对技术有敬畏和基本了解，对互联网、科技、数码等有热情，善于深度思考、知识面广\n2、最好是受过技术训练、有技术基础，或对科学技术有较高敏感\n3、最好有过参与或主导大学生创新创业项目或带过团队的经验\n4、有过商业计划书撰写、融资财务分析、市场调研、竞品分析、财务报销等经历的同学优先</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、成为互联网+、两个“挑战杯”、iCAN等特级竞赛与一级竞赛的项目负责人、产品经理，带领你的项目组斩获这些大学生赛事的桂冠\n2、学习到互联网与科技行业产品基础理念与市场营销知识，体会与行业接轨的产品开发流程与落地实现后的运营，学习到大学生创新创业赛事的竞赛方法论\n3、视贡献程度，在基础的时长、综测加分的前提下有机会获得额外的时长与加分</text>
+  </view>
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1">财务管理</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <text class="groupText">1、负责比赛材料财务部分内容，财务管理专业同学优先\n2、负责团队运营的经费管理，并对日常活动所产生的费用和票据，进行合法性、合理性、规范性的审核及报销\n3、负责经费的收支记录与管理</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、为人严谨仔细，有相关工作经历/专业者优先\n2、具有较强的沟通能力与应变能力\n3、熟练Word、Excel、PPT、线上协作等办公软件</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、你的财务管理能力将在经验实例中得到极大锻炼，工坊项目多，大到学校产学研、校企合作层面，能体验到正式和真实程度上在整个学校独一无二的工作机会\n2、有机会参与到互联网+、两个“挑战杯”、iCAN等竞赛项目中去\n3、视贡献程度，在基础的时长、综测加分的前提下有机会获得额外的时长与加分</text>
+  </view>
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">——</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1">企业课题管理</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">——</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <text class="groupText">1、对各个来自社会的企业的项目组进行进度跟进，监督其正常运作，以及能通过验收\n2、探索创新创业初创想法、实现路径、最小验证模型、实施方案等</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <text class="groupText">1、对技术有敬畏和基本了解，对互联网、科技、数码等有热情，善于深度思考、知识面广\n2、最好是受过技术训练、有技术基础，或对科学技术有较高敏感度\n3、最好有过参与或主导大学生创新创业项目或带过团队的经验\n4、有过商业计划书撰写、融资财务分析、市场调研、竞品分析等经历的同学优先</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、你的人事素养和沟通能力得到极大锻炼，工坊的人事对接的是学校里最先锋的同学、老师、实验室等，甚至涉及产学研、校企合作，能体验到正式和真实程度上在整个学校独一无二的工作机会\n2、成为互联网+、两个“挑战杯”、iCAN等特级竞赛与一级竞赛的项目负责人、产品经理，带领你的项目组斩获这些大学生赛事的桂冠\n3、学习到互联网与科技行业产品基础理念与市场营销知识，体会与行业接轨的产品开发流程与落地实现后的运营，学习到大学生创新创业赛事的竞赛方法论\n4、视贡献程度，在基础的时长、综测加分的前提下有机会获得额外的时长与加分</text>
+  </view>
+</view>

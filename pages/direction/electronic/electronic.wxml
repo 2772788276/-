@@ -1,0 +1,31 @@
+<!--pages/direction/electronic/electronic.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>电控组</view>
+</view>
+<view class="directionInImage">
+  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852190.png" mode="aspectFill" class="groupImage"/>
+</view>
+<view class="directionInColor">
+  <view class="directionMain">
+    <view class="directionMainTitle">
+      <i class="directionHr">———</i><i class="iconfont icon-shanshuo"></i>
+      <text class="groupTitle1" >技术部</text>
+      <i class="iconfont icon-shanshuo"></i><i class="directionHr">———</i> 
+    </view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">工作内容</text>
+    </view>
+    <text class="groupText">1、电控，顾名思义，电路及控制。其相当于项目作品的大脑、心脏和血液，上电一刻，注入灵魂\n2、编写单片机或上位机控制程序（ESP32、STM32等）\n3、推导并实现控制算法\n4、电路板（开关电源、主控等）的设计绘制焊接\n5、调试传感器、电机、舵机等，实现的精准控制</text>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">招新需求</text>
+    </view>
+    <view class="groupText groupText1">对c语言有一定的熟悉，会基础的PCB制作和单片机控制，有一定焊接功底，对元器件有一定认识和常见仪器的使用</view>
+    <view class="groupTextTitle">
+      <i class="iconfont icon-yuandian"></i>
+      <text class="groupTitle2">未来收获</text>
+    </view>
+    <text class="groupText">1、熟练掌握各类专业软件：Keil，CubeMx，MatLab，visual studio，Altium Designer，mulsitim\n2、熟练掌握各种传感器的原理及使用方法：陀螺仪，限位开关，编码器等\n3、悉各种控制算法，编程语言以及仿真基础\n4、拥有团队协作能力（即沟通能力）：与机械组成员沟通布线以及控制逻辑、与AI组成员优化作品性能</text>
+  </view>
+</view>

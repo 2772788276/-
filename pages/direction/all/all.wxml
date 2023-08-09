@@ -1,0 +1,7 @@
+<!--pages/direction/all/all.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>小A团队</view>
+</view>
+<view class="directionInImage">
+<image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307201902010.png" mode="aspectFill" class="groupImage"/>
+</view>

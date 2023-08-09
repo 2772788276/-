@@ -1,0 +1,10 @@
+<!--pages/message/message.wxml-->
+<view class="navigator">
+  <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>考核信息</view>
+</view>
+<circle deg='{{deg}}'></circle>
+<view class="grade" wx:for="{{grades}}" wx:key="index">
+  <view class="box"><view class="span {{progress>=item.id?'active':''}}"></view><view class="text">{{item.title}}：{{item.grade}}</view></view>
+</view>
+<navigator class="forward" url="/pages/message/text">查看考核内容</navigator>
+
