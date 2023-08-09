@@ -19,7 +19,7 @@
   <view wx:if="{{state==4}}" class="name_forth3">多为任职于<text class="name_forth3_important">腾讯，字节，阿里等大厂</text></view>
   </view>
   <view class="logo logo{{state}}">
-  <image wx:if="{{state==1}}" src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg" mode="scaleToFill"/>
+  <image wx:if="{{state==1}}" src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852196.jpg" mode="scaleToFill"/>
   <image wx:if="{{state==2}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVABALo6zzzKYTHnYeWJHaLMy96XaiN3eOiDrOINvuET*DepdkoZD7VDCjmeDsV1ddw!/b&bo=OASsAgAAAAABF6I!&rf=viewer_4" mode="scaleToFill"/>
   <image wx:if="{{state==3}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVDCvCVxBGfuP77SeAwI7LWuLWHhgJs1b9EvnIcx2c1yj*m7J4eV10y0J2lRLY5AVuU!/b&bo=9gODAgAAAAADVwY!&rf=viewer_4"/>
   <image wx:if="{{state==4}}" src="http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5qPCJtcbE32LDvhws.UWhWBUj*zB0yFwFQHqQBxJkQXNEnid9P99Sqs5Zx2hxON3fuf5pGP.9U*5rgDSAbqEAH0!/b&bo=OAQoAwAAAAABFyc!&rf=viewer_4"/>

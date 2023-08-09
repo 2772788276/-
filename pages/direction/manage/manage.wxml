@@ -3,7 +3,7 @@
   <view class="title"><i class="iconfont icon-xiangzuo" bindtap="back"></i>管理组</view>
 </view>
 <view class="directionInImage">
-  <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852197.png" mode="aspectFill" class="groupImage" />
+  <image src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852197.png" mode="aspectFill" class="groupImage" />
 </view>
 <view class="directionInColor">
   <view class="directionMain">

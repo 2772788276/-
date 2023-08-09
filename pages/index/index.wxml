@@ -40,16 +40,16 @@
     <view class="directionContainer">
       <navigator wx:for="{{directionGroup}}" wx:key="item" url="{{item.nav}}" style="top:{{item.top}} ;left:{{item.left}};transform: scale({{item.scale}})" class="directionGroup">
         <image src="{{item.url}}" mode="" class="directionImage" />
-        <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307190133272.png" mode="" class="directionBorder" />
+        <image src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307190133272.png" mode="" class="directionBorder" />
         <text class="directionTitle">{{item.title}}</text>
       </navigator>
-      <image class="directionImage directionIron" src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg" />
+      <image class="directionImage directionIron" src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852196.jpg" />
       <!-- 气泡框 -->
       <navigator url="../direction/all/all">
-      <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307190133272.png" mode="" class="directionBorder directionIronBorder" />
+      <image src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307190133272.png" mode="" class="directionBorder directionIronBorder" />
     </navigator>
     <!-- 背景 -->
-      <image src="https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307182239669.png" mode="aspectFill" class="bgDirection" />
+      <image src="https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307182239669.png" mode="aspectFill" class="bgDirection" />
       <view class="directionWri">
         <text class="directionText">请选择你感兴趣的组别</text>
       </view>

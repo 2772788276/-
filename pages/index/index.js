@@ -7,7 +7,7 @@ Page({
     // 轮播图部分数据
     swiperImg: ["http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVDCvCVxBGfuP77SeAwI7LWuLWHhgJs1b9EvnIcx2c1yj*m7J4eV10y0J2lRLY5AVuU!/b&bo=9gODAgAAAAADVwY!&rf=viewer_4", "http://m.qpic.cn/psc?/V10yHDUp2ytYTs/ruAMsa53pVQWN7FLK88i5uHRfRwkN13dMGuo18j5jVABALo6zzzKYTHnYeWJHaLMy96XaiN3eOiDrOINvuET*DepdkoZD7VDCjmeDsV1ddw!/b&bo=OASsAgAAAAABF6I!&rf=viewer_4"],
     noImg: false,
-    logo:"https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg",
+    logo:"https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852196.jpg",
     //tabbar部分数据
     index: 0,
     tabBar: [{
@@ -116,7 +116,7 @@ Page({
     phone: '',
     introduction: '',
     //个人信息部分数据
-    mineImg: 'https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852196.jpg',
+    mineImg: 'https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852196.jpg',
     mineName: '请登录',
     enableclick:true,
     mineThings: [{
@@ -142,7 +142,7 @@ Page({
     ],
     directionGroup: [{
         nav: "../direction/media/media",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852198.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852198.png",
         title: "传媒组",
         top: "21%",
         left: "37%",
@@ -150,7 +150,7 @@ Page({
       },
       {
         nav: "../direction/ai/ai",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852192.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852192.png",
         title: "AI组",
         top: "31%",
         left: "5%",
@@ -158,7 +158,7 @@ Page({
       },
       {
         nav: "../direction/technic/technic",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852194.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852194.png",
         title: "机械组",
         top: "22%",
         left: "70%",
@@ -166,7 +166,7 @@ Page({
       },
       {
         nav: "../direction/back/back",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852193.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852193.png",
         title: "后台组",
         top: "53%",
         left: "0%",
@@ -174,7 +174,7 @@ Page({
       },
       {
         nav: "../direction/electronic/electronic",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852190.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852190.png",
         title: "电控组",
         top: "44%",
         left: "70%",
@@ -182,7 +182,7 @@ Page({
       },
       {
         nav: "../direction/front/front",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852195.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852195.png",
         title: "前端组",
         top: "65%",
         left: "28%",
@@ -190,7 +190,7 @@ Page({
       },
       {
         nav: "../direction/manage/manage",
-        url: "https://cdn.jsdelivr.net/gh/mnshhhh/-A-Image//img/group/202307181852197.png",
+        url: "https://gitee.com/mnshhhh/a-image/raw/master/img/group/202307181852197.png",
         title: "管理组",
         top: "63%",
         left: "60%",
